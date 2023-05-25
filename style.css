@@ -1,0 +1,103 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.navContainer{
+    /* border: solid blue; */
+    height: 104px;
+    background-color: #171A21;
+    display: flex;
+    justify-content: space-between;
+    
+   
+}
+.menu{
+    /* border: solid purple; */
+    display: flex;
+    justify-content: space-between;
+    
+    width: 800px;
+    color: #B8B6B4;
+    /* background-image: url(https://store.cloudflare.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016); */
+}
+
+#icon{
+    width: 176px;
+    height: 44px;
+    padding-top: 2em;
+    
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.menuItem{
+    padding-top: 6%;
+    
+}
+.info{
+    font-size: 13px;
+    
+}
+.info:hover{
+    font-size: 13px;
+    color: green;
+    
+}
+#install{
+    background-color: #5C7E10;
+    max-block-size: 1.4em;
+}
+.steam{
+    height: 1em;
+    width: 1em;
+}
+
+
+
+
+
+.hubContainer{
+    /* border: solid green; */
+    height: 66px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(https://store.cloudflare.steamstatic.com/public/images/v6/colored_body_top.png?v=2);
+}
+.hubItem{
+    color: #C6D4DF;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2em;
+    
+    
+}
+.search{
+    margin-left: 13px;
+    border-radius: 1.5em;
+    background-color: rgb(27, 91, 116);
+}
+/* .searchIcon{ */
+    /* height: 1em; */
+    /* width: 1px; */
+/* } */
+.featured{
+    /* border: solid orange; */
+    height: 452px;
+    padding: 1em;
+    background-image: url(https://store.cloudflare.steamstatic.com/public/images/v6/colored_body_top.png?v=2);
+}
+.text{
+    color: #C6D4DF;
+    font-size: 14px;
+    padding-top: 2em;
+}
+.rec{
+    height: 353px;
+    width: 616px;
+}
+.specialOff{
+    border: solid red;
+    height: 470px;
+    background-color: rgb(18, 39, 59);
+}
