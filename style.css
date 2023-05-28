@@ -86,18 +86,70 @@ img{
     height: 452px;
     padding: 1em;
     background-image: url(https://store.cloudflare.steamstatic.com/public/images/v6/colored_body_top.png?v=2);
+    display: flex;
+    justify-content: space-evenly;
+
+ 
+    
+}
+.details{
+    border: solid yellow;
+    /* height: 353px; */
+    margin-top: 6em;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+
+    display: grid;
+grid-template-columns: 50% 50%;
+grid-template-rows: 50% 50%;
+
+   
 }
 .text{
     color: #C6D4DF;
     font-size: 14px;
     padding-top: 2em;
+    display: flex;
 }
 .rec{
+    margin-top: 6em;
     height: 353px;
     width: 616px;
 }
+.featImg{
+    height: 100%;
+    width: 100%;
+    
+}
+
+
 .specialOff{
-    border: solid red;
+    /* border: solid red; */
     height: 470px;
     background-color: rgb(18, 39, 59);
+    color: #C6D4DF;
+   display: flex;
+   
+}
+
+.special{
+    display: grid;
+    grid-template-columns:100% 100%  ;
+    /* grid-template-rows: 100% 50%; */
+   height: 100%;
+   width: 100%; 
+}
+.miniSpecial{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+    height: 75%;
+    width: 75%;
+}
+.offer{
+    display: flex;
+    justify-content: center;
+    
+    
 }
